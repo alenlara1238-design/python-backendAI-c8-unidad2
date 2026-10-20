@@ -1,7 +1,10 @@
-
+from sqlalchemy.orm import Session
+from app.models.product import Product
+from app.repositories.product_repository import Product_repository
 
 class ProductService:
 
+    #constructor: indica la manera en que se creará un service.
     def __init__(self):
         self.repository = Product_repository()
     

@@ -1,4 +1,6 @@
+from sqlalchemy import String
 from sqlachemy.orm import Mapped, mapped_column
+
 
 from app.database import Base
 
